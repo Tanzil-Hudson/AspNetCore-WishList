@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WishList.Views.Controllers
+namespace WishList.Controllers
 {
     public class HomeController : Controller
     {
@@ -9,7 +9,7 @@ namespace WishList.Views.Controllers
         {
             return View("Index");
         }
-        
+
         public IActionResult Error()
         {
             return View("Error");
