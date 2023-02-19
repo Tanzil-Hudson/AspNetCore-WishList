@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Security.Cryptography.X509Certificates;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WishList.Views.Controllers
 {
@@ -6,9 +7,13 @@ namespace WishList.Views.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
         }
-
+        
+        public IActionResult Error()
+        {
+            return View("Error");
+        }
 
     }
 
