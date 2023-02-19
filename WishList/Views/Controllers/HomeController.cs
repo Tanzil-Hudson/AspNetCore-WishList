@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace WishList.Views.Controllers
 {
@@ -10,9 +9,7 @@ namespace WishList.Views.Controllers
             return View();
         }
 
-        public Action Index(IActionResult actionResult)
-        {
-            return View();
-        }
+
     }
+
 }
